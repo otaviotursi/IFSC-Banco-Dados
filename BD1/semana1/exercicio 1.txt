@@ -1,0 +1,47 @@
+pokemon - relacionamento
+
+animais - entidade 1
+	nome - atributos 1
+	força - atributos 2
+	pontos de combate - atributos 3
+
+itens - entidade 2
+	passes - atributos 1
+	poção de cura - atributos 2
+	adevisos - atributos 3
+
+amigos - entidade 3
+	nome - atributos 1
+	presentes - atributos 2
+	nivel - atributos 3
+
+
+A cardinalidade do jogo, para todas as entidades descritas são (n,n).
+A relação entre eles, é que:
+1. amigos podem ter pokemons e itens iguais, não tendo exclusividade.
+2. itens podem curar pokemons. 
+
+
+
+LinkedIn - relacionamento
+
+empresa- entidade 1
+	nome - atributos 1
+	setor - atributos 2
+	região - atributos 3
+
+vaga de emprego - entidade 2
+	área - atributos 1
+	setor - atributos 2
+	requisitos da vaga - atributos 3
+
+usuário - entidade 3
+	nome - atributos 1
+	faculdade - atributos 2
+	região - atributos 3
+
+
+A cardinalidade dos relacionamentos, para todas as entidades descritas são (n,n).
+A relação entre eles, é que:
+1. Usuários podem encontrar vagas de diferentes empresas.
+2. Empresas podem divulgar vagas, para determinados setores e com requisitos específicos.
